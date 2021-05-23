@@ -25,67 +25,26 @@
 
 
 
+| Objects                      |   Core Objects | DOM & Events         |       ECMAScript 6    |
+| :---------------------------:|:----------------:|:----------------------:|:-----------------------------:|
+| 1.1 Introducing Objects      | 1.1 Arrays                     |  1.1 What is DOM? | 1.1 Intro to ES6 |
+| 1.2 Practice: Cuboid Volume  | 1.2 Practice: Fluffy Pancakes  | 2.1 Selecting Elements| 2.1 ES6 Variables and Strings |
+| 2.1 Creating Your Own Objects| 2.1 Other Ways to Create Arrays| 3.1 Changing Elements| 2.2 Practice: London is the capital of GB |
+| 2.2 Practice: Landed!        | 3.1 Array Properties & Methods | 4.1 Adding & Removing Elements| 3.1 Loops and Functions in ES6 |
+| 3.1 Object Initialization    | 3.2 Practice: Level Up!   | 5.1 Creating Animations|  3.2 Practice: Salary rise |
+| 4.1 Adding Methods           | 4.1 Associative Arrays   | 6.1 Handling Events |  3.3 Practice: Score 70 plus! |
+| 4.2 Practice: Annual Interest Rate | 5.1 The Math Object | 7.1 Event Propagation |  4.1 ES6 Objects |
+| 4.3 Practice: Calculating The Discount | 5.2 Practice: Which Century?  | 8.1 Creating an Image Slider |  4.2 Practice: Workout harder! |
+| 5.1 Module 5 Quiz            | 5.3 Practice: Circumference Of A Circle  | 9.1 Form Validation |   5.1 ES6 Destructuring |
+| 6.1 Code project: Contact Manager | 6.1 The Date Object | 10.1 Module 7 Quiz |  6.1 Rest & Spread |
+|                              | 6.2 Practice: Monday to Sunday |              |  6.2 Practice: Summary calculator |
+|                              | 7.1 Module 6 Quiz |                           |  7.1 ES6 Classes  |
+|                              | 8.1 Code project: Store Manager  |        |  7.2 Practice: Average exam score |
+|                              |   |   |  7.3 Practice: Attack! |
+|                              |   |   | 8.1 ES6 Map & Set  |
+|                              |   |   |  8.2 Practice: Employee map |
+|                              |   |   | 8.3 Practice: Distinct values of the set  |
+|                              |   |   |  9.1 More on ES6 |
+|                              |   |   |  10.1 Module 8 Quiz |
+|                              |   |   |  11 Code project: Words |
 
-
-
-
-5Objects
-1.1 Introducing Objects
-1.2 Practice: Cuboid Volume
-2.1 Creating Your Own Objects
-2.2 Practice: Landed!
-3.1 Object Initialization
-4.1 Adding Methods
-4.2 Practice: Annual Interest Rate
-4.3 Practice: Calculating The Discount
-5.1 Module 5 Quiz
-6.1 Code project: Contact Manager
-
-6Core Objects
-1.1 Arrays
-1.2 Practice: Fluffy Pancakes
-2.1 Other Ways to Create Arrays
-3.1 Array Properties & Methods
-3.2 Practice: Level Up!
-4.1 Associative Arrays
-5.1 The Math Object
-5.2 Practice: Which Century?
-5.3 Practice: Circumference Of A Circle
-6.1 The Date Object
-6.2 Practice: Monday to Sunday
-7.1 Module 6 Quiz
-8.1 Code project: Store Manager
-
-DOM & Events
-1.1 What is DOM?
-2.1 Selecting Elements
-3.1 Changing Elements
-4.1 Adding & Removing Elements
-5.1 Creating Animations
-6.1 Handling Events
-7.1 Event Propagation
-8.1 Creating an Image Slider
-9.1 Form Validation
-10.1 Module 7 Quiz
-
-ECMAScript 6
-1.1 Intro to ES6
-2.1 ES6 Variables and Strings
-2.2 Practice: London is the capital of GB
-3.1 Loops and Functions in ES6
-3.2 Practice: Salary rise
-3.3 Practice: Score 70 plus!
-4.1 ES6 Objects
-4.2 Practice: Workout harder!
- 5.1 ES6 Destructuring
-6.1 Rest & Spread
-6.2 Practice: Summary calculator
-7.1 ES6 Classes
-7.2 Practice: Average exam score
-7.3 Practice: Attack!
-8.1 ES6 Map & Set
-8.2 Practice: Employee map
-8.3 Practice: Distinct values of the set
-9.1 More on ES6
-10.1 Module 8 Quiz
-11 Code project:Words
