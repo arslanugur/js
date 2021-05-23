@@ -1,66 +1,33 @@
 # js
 
 
-1 Overview
-1.1 Creating Your First JavaScript
-1.2 Practice: Your First Program
-2.1 Variables
-3.1 Comments
-3.2 Practice: Even numbers
-4.1 Data Types
-4.2 Practice: Escape!
-5.1 Module 1 Quiz
+| Overview                          |   Basic Concepts | Conditionals and Loops | Functions                     |
+| :--------------------------------:|:----------------:|:----------------------:|:-----------------------------:|
+| 1.1 Creating Your First JavaScript|1.1 Math Operators|1.1 The if Statement    |  1.1 User-Defined Functions   |
+| 1.2 Practice: Your First Program  |1.2 Practice: Big Sale|1.2 Practice: Quiet Rules| 1.2 Practice: Loading  |
+| 2.1 Variables                     |1.3 Practice: Speed Of Sound|2.1 The else Statement| 2.1 Function Parameters  |
+| 3.1 Comments                      |2.1 Assignment Operators|2.2 Practice: Admission In Pairs|  2.2 Practice: Spend after saving|
+| 3.2 Practice: Even numbers        |3.1 Comparison Operators|3.1 The else if Statement| 2.3 Practice: Important reminders  |
+| 4.1 Data Types                    |3.2 Practice: Change Your Password|3.2 Practice: Buy More, Get More| 3.1 Using Multiple Parameters with Functions  |
+| 4.2 Practice: Escape!             |3.3 Practice: Find The Adults|4.1 The switch Statement|  3.2 Practice: Who won the match? |
+| 5.1 Module 1 Quiz                 |4.1 Logical or Boolean Operators|4.2 Practice: Dark Theme|  4.1 The return Statement |
+|                                   |4.2 Practice: Volunteer Teams|5.1 The For Loop| 4.2 Practice: Average of three  |
+|                                   |4.3 Practice: Noon Or Midnight|5.2 Practice: Factorial Fun| 5.1 Alert, Prompt, Confirm  |
+|                                   |5.1 String Operators|5.3 Practice: Pages Per Minute| 6.1 Module 4 Quiz  |
+|                                   |6.1 Module 2 Quiz|6.1 The While Loop|  7.1 Code project: Currency Converter |
+|                                   |7.1 Code project: Trip Planner|6.2 Practice: Time's Up!|   |
+|                                   |           |  7.1 The Do...While Loop     |   |
+|                                   |           |  8.1 Break and Continue      |   |
+|                                   |           |  8.2 Practice: Skipping 13   |   |
+|                                   |           |  9.1 Module 3 Quiz           |   |
+|                                   |           |  10.1 Code project: The Snail in the Well  |   |
 
 
-2Basic Concepts
-1.1 Math Operators
-1.2 Practice: Big Sale
-1.3 Practice: Speed Of Sound
-2.1 Assignment Operators
-3.1 Comparison Operators
-3.2 Practice: Change Your Password
-3.3 Practice: Find The Adults
-4.1 Logical or Boolean Operators
-4.2 Practice: Volunteer Teams
-4.3 Practice: Noon Or Midnight
-5.1 String Operators
-6.1 Module 2 Quiz
-7.1 Code project: Trip Planner
 
 
-3Conditionals and Loops
-1.1 The if Statement
-1.2 Practice: Quiet Rules
-2.1 The else Statement
-2.2 Practice: Admission In Pairs
-3.1 The else if Statement
-3.2 Practice: Buy More, Get More
-4.1 The switch Statement
-4.2 Practice: Dark Theme
-5.1 The For Loop
-5.2 Practice: Factorial Fun
-5.3 Practice: Pages Per Minute
-6.1 The While Loop
-6.2 Practice: Time's Up!
-7.1 The Do...While Loop
-8.1 Break and Continue
-8.2 Practice: Skipping 13
-9.1 Module 3 Quiz
-10.1 Code project: The Snail in the Well
 
-4Functions
-1.1 User-Defined Functions
-1.2 Practice: Loading
-2.1 Function Parameters
-2.2 Practice: Spend after saving
-2.3 Practice: Important reminders
-3.1 Using Multiple Parameters with Functions
-3.2 Practice: Who won the match?
-4.1 The return Statement
-4.2 Practice: Average of three
-5.1 Alert, Prompt, Confirm
-6.1 Module 4 Quiz
-7.1 Code project: Currency Converter
+
+
 
 5Objects
 1.1 Introducing Objects
