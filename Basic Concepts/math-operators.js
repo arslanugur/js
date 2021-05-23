@@ -4,13 +4,13 @@ Arithmetic Operators
       
 Operator  Description    Example
 ---------------------------------
-      +	  Addition	     25 + 5 = 30
-      -	  Subtraction	   25 - 5 = 20
+      +	  Addition	 25 + 5 = 30
+      -	  Subtraction	 25 - 5 = 20
       *	  Multiplication 10 * 20 = 200
-      /	  Division	     20 / 2 = 10
-      %	  Modulus	       56 % 3 = 2
-     ++	  Increment	     var a = 10; a++; Now a = 11 
-     --	  Decrement	     var a = 10; a--; Now a = 9
+      /	  Division	 20 / 2 = 10
+      %	  Modulus	 56 % 3 = 2
+     ++	  Increment	 var a = 10; a++; Now a = 11 
+     --	  Decrement	 var a = 10; a--; Now a = 9
 
       Below you can see the addition operator (+) in action determining the sum of two numbers.
 var x = 10 + 5;
@@ -80,16 +80,16 @@ Increment & Decrement
       When placed after the operand, it’ll return the original value and then decrements the operand.
 
       Some examples:
-Operator  Description     Example               Result
+Operator    Description     Example               Result
 -----------------------------------------------------------------
 var++	    Post Increment  var a = 0, b = 10;    a = 10 and b = 11
-			                    var a = b++;
-++var	    Pre Increment	  var a = 0, b = 10;    a = 11 and b = 11
-			                    var a = ++b;
+			    var a = b++;
+++var	    Pre Increment   var a = 0, b = 10;    a = 11 and b = 11
+			    var a = ++b;
 var--	    Post Decrement  var a = 0, b = 10;    a = 10 and b = 9 
-			                    var a = b--;	
---var	    Pre Decrement	  var a = 0, b = 10;    a = 9 and b = 9
-			                    var a = --b;
+			    var a = b--;	
+--var	    Pre Decrement   var a = 0, b = 10;    a = 9 and b = 9
+			    var a = --b;
 
       You can change the order of the arithmetic operations by using parentheses.
       Like this: var x = (100 + 50) * 3;
