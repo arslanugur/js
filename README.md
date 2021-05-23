@@ -3,48 +3,48 @@
 
 | Overview                          |   Basic Concepts | Conditionals and Loops | Functions                     |
 | :--------------------------------:|:----------------:|:----------------------:|:-----------------------------:|
-| [1.1 Creating Your First JavaScript]()|[1.1 Math Operators]()|[1.1 The if Statement]()    |  [1.1 User-Defined Functions]()   |
-| [1.2 Practice: Your First Program]()  |[1.2 Practice: Big Sale]()|[1.2 Practice: Quiet Rules]()| [1.2 Practice: Loading]()  |
-| [2.1 Variables]()                     |[1.3 Practice: Speed Of Sound]()|[2.1 The else Statement]()| [2.1 Function Parameters]()  |
-| [3.1 Comments]()                      |[2.1 Assignment Operators]()|[2.2 Practice: Admission In Pairs]()|[2.2 Practice: Spend after saving]()|
-| [3.2 Practice: Even numbers]()        |[3.1 Comparison Operators]()|[3.1 The else if Statement]()| [2.3 Practice: Important reminders]()  |
-| [4.1 Data Types]()                    |[3.2 Practice: Change Your Password]()|[3.2 Practice: Buy More, Get More]()| [3.1 Using Multiple Parameters with Functions]() |
-| [4.2 Practice: Escape!]()             |[3.3 Practice: Find The Adults]()|[4.1 The switch Statement]()|  [3.2 Practice: Who won the match?]() |
-| [5.1 Module 1 Quiz]()                 |[4.1 Logical or Boolean Operators]()|[4.2 Practice: Dark Theme]()|  [4.1 The return Statement]() |
-|                                   |[4.2 Practice: Volunteer Teams]()|[5.1 The For Loop]()| [4.2 Practice: Average of three]()  |
-|                                   |[4.3 Practice: Noon Or Midnight]()|[5.2 Practice: Factorial Fun]()| [5.1 Alert, Prompt, Confirm]()  |
-|                                   |[5.1 String Operators]()|[5.3 Practice: Pages Per Minute]()| [6.1 Module 4 Quiz]()  |
-|                                   |[6.1 Module 2 Quiz]()|[6.1 The While Loop]()|  [7.1 Code project: Currency Converter]() |
-|                                   |[7.1 Code project: Trip Planner]()|[6.2 Practice: Time's Up!]()|   |
-|                                   |           |  [7.1 The Do...While Loop]()     |   |
-|                                   |           |  [8.1 Break and Continue]()      |   |
-|                                   |           |  [8.2 Practice: Skipping 13]()   |   |
-|                                   |           |  [9.1 Module 3 Quiz]()           |   |
-|                                   |           |  [10.1 Code project: The Snail in the Well]() |   |
+| [Creating Your First JavaScript](/Overview/creating-your-first-javascript.js)|[Math Operators]()|[The if Statement]()    |  [User-Defined Functions]()|
+| [Practice: Your First Program](/Overview/your-first-program.js)|[Practice: Big Sale]()|[Practice: Quiet Rules]()| [Practice: Loading]()  |
+| [Variables](/Overview/variables.js)|[Practice: Speed Of Sound]()|[The else Statement]()| [Function Parameters]()  |
+| [Comments](/Overview/comments.js)|[Assignment Operators]()|[Practice: Admission In Pairs]()|[Practice: Spend after saving]()|
+| [Practice: Even numbers]()        |[Comparison Operators]()|[The else if Statement]()| [Practice: Important reminders]()  |
+| [Data Types](/Overview/data-types.js)|[Practice: Change Your Password]()|[Practice: Buy More, Get More]()| [Using Multiple Parameters with Functions]() |
+| [Practice: Escape!]()             |[Practice: Find The Adults]()|[The switch Statement]()|[Practice: Who won the match?]() |
+| [Module 1 Quiz](/Overview/module-1-quiz.js)|[Logical or Boolean Operators]()|[Practice: Dark Theme]()|  [The return Statement]() |
+|                                   |[Practice: Volunteer Teams]()|[The For Loop]()| [Practice: Average of three]()  |
+|                                   |[Practice: Noon Or Midnight]()|[Practice: Factorial Fun]()| [Alert, Prompt, Confirm]()  |
+|                                   |[String Operators]()|[Practice: Pages Per Minute]()| [Module 4 Quiz]()  |
+|                                   |[Module 2 Quiz]()|[The While Loop]()|  [Code project: Currency Converter]() |
+|                                   |[Code project: Trip Planner]()|[Practice: Time's Up!]()|   |
+|                                   |           |  [The Do...While Loop]()     |   |
+|                                   |           |  [Break and Continue]()      |   |
+|                                   |           |  [Practice: Skipping 13]()   |   |
+|                                   |           |  [Module 3 Quiz]()           |   |
+|                                   |           |  [Code project: The Snail in the Well]() |   |
 
 
 
 
 | Objects                      |   Core Objects | DOM & Events         |       ECMAScript 6    |
 | :---------------------------:|:----------------:|:----------------------:|:-----------------------------:|
-| [1.1 Introducing Objects]()      | [1.1 Arrays]()                     |  [1.1 What is DOM?]() | [1.1 Intro to ES6]() |
-| [1.2 Practice: Cuboid Volume]()  | [1.2 Practice: Fluffy Pancakes]()  | [2.1 Selecting Elements]()| [2.1 ES6 Variables and Strings]() |
-|[2.1 Creating Your Own Objects]()|[2.1 Other Ways to Create Arrays]()|[3.1 Changing Elements]()|[2.2 Practice: London is the capital of GB]()|
-| [2.2 Practice: Landed!]()      | [3.1 Array Properties & Methods]() | [4.1 Adding & Removing Elements]()| [3.1 Loops and Functions in ES6]() |
-| [3.1 Object Initialization]()    | [3.2 Practice: Level Up!]()   | [5.1 Creating Animations]()|  [3.2 Practice: Salary rise]() |
-| [4.1 Adding Methods]()           | [4.1 Associative Arrays]()   | [6.1 Handling Events]() |  [3.3 Practice: Score 70 plus!]() |
-| [4.2 Practice: Annual Interest Rate]() | [5.1 The Math Object]() | [7.1 Event Propagation]() |  [4.1 ES6 Objects]() |
-|[4.3 Practice: Calculating The Discount]()|[5.2 Practice: Which Century?]()|[8.1 Creating an Image Slider]()|[4.2 Practice: Workout harder!]() |
-| [5.1 Module 5 Quiz]()            | [5.3 Practice: Circumference Of A Circle]()  | [9.1 Form Validation]() |   [5.1 ES6 Destructuring]() |
-| [6.1 Code project: Contact Manager]() | [6.1 The Date Object]() | [10.1 Module 7 Quiz]() |  [6.1 Rest & Spread]() |
-|                              | [6.2 Practice: Monday to Sunday]() |              |  [6.2 Practice: Summary calculator]() |
-|                              | [7.1 Module 6 Quiz]() |                           |  [7.1 ES6 Classes]()  |
-|                              | [8.1 Code project: Store Manager]()  |        |  [7.2 Practice: Average exam score]() |
-|                              |   |   |  [7.3 Practice: Attack!]() |
-|                              |   |   | [8.1 ES6 Map & Set]()  |
-|                              |   |   |  [8.2 Practice: Employee map]() |
-|                              |   |   | [8.3 Practice: Distinct values of the set]()  |
-|                              |   |   |  [9.1 More on ES6]() |
-|                              |   |   |  [10.1 Module 8 Quiz]() |
-|                              |   |   |  [11 Code project: Words]() |
+| [Introducing Objects]()      | [Arrays]()                    | [What is DOM?]() | [Intro to ES6]() |
+| [Practice: Cuboid Volume]()  | [Practice: Fluffy Pancakes]() | [Selecting Elements]()| [ES6 Variables and Strings]() |
+| [Creating Your Own Objects]()|[Other Ways to Create Arrays]()|[Changing Elements]()|[Practice: London is the capital of GB]()|
+| [Practice: Landed!]()        | [Array Properties & Methods]() | [Adding & Removing Elements]()| [Loops and Functions in ES6]() |
+| [Object Initialization]()    | [Practice: Level Up!]()   | [Creating Animations]()|  [Practice: Salary rise]() |
+| [Adding Methods]()           | [Associative Arrays]()   | [Handling Events]() |  [Practice: Score 70 plus!]() |
+| [Practice: Annual Interest Rate]() | [The Math Object]() | [Event Propagation]() |  [ES6 Objects]() |
+| [Practice: Calculating The Discount]()|[Practice: Which Century?]()|[Creating an Image Slider]()|[Practice: Workout harder!]() |
+| [Module 5 Quiz]()            | [Practice: Circumference Of A Circle]()  | [Form Validation]() |   [ES6 Destructuring]() |
+| [Code project: Contact Manager]() | [The Date Object]() | [Module 7 Quiz]() |  [Rest & Spread]() |
+|                              | [Practice: Monday to Sunday]() |              |  [Practice: Summary calculator]() |
+|                              | [Module 6 Quiz]() |                           |  [ES6 Classes]()  |
+|                              | [Code project: Store Manager]()  |        |  [Practice: Average exam score]() |
+|                              |   |   | [Practice: Attack!]() |
+|                              |   |   | [ES6 Map & Set]()  |
+|                              |   |   | [Practice: Employee map]() |
+|                              |   |   | [Practice: Distinct values of the set]()  |
+|                              |   |   | [More on ES6]() |
+|                              |   |   | [Module 8 Quiz]() |
+|                              |   |   | [Code project: Words]() |
 
