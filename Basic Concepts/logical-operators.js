@@ -36,7 +36,12 @@ var number = prompt("Enter number");
 var isEvenOrOdd = (number % 2 == 0) ? "Even": "Odd"; 
 document.write(isEvenOrOdd);
 
+
+What's the result of the expression?
+var1 && var2, if var1 = true and var2 = false? - false
+
       https://en.m.wikipedia.org/wiki/Elvis_operator
+
 
 
 
