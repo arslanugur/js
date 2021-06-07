@@ -21,4 +21,6 @@ var x = "50";
 var y = "100";
 document.write(x+y); //output: 50100
 
-
+Which of these names are acceptable for JavaScript variables? 
+  _module //Underscore is allowed
+  firstNumber
