@@ -213,4 +213,183 @@ switch (true) {
     //How many "case" statements are usually used in the "switch" statement?
     //One for each possible answer
     
+    //Example:
+var option = prompt("Welcome to Javascript R Us. Please press 1 for Accounts, 2 for Orders, 3 for Sales or 4 for all other enquities ");
+switch (option) {
+    case "1":
+        document.write("Hi, please give me your credit card number");
+        break;
+    case "2":
+        document.write("Hi, please tell me how many scripts you need?");
+        break;
+    case "3":
+        document.write("Hi, I will sell you a script at a good price");
+        break;
+    default:
+        document.write("Hi, what can I help you with?");
+}
+
     
+The break Keyword
+      //So we have learned that the switch statement tests a code block, 
+      //but we won't always want it to test the whole block. 
+      //The break keyword essentially switches the switch statement off.
+
+      //Breaking out of the switch block stops the execution of more code and case testing inside the block. 
+            
+      //Usually, a break should be put in each case statement.
+            
+      //Example:
+var color ="red"; 
+switch(color) { 
+  case "blue": 
+     document.write("This is blue."); 
+     break; 
+  case "red": 
+     document.write("This is red"); 
+     break; 
+  case "green": 
+     document.write("This is green."); 
+     break; 
+  case "orange": 
+     document.write("This is orange."); 
+     break; 
+  default: 
+     document.write("Color not found."); } 
+     
+     //Example:
+var a = prompt("What flower do you know which is red?:"); 
+switch(a) { 
+   case "rose": 
+      document.write("Wow that's a cool flower"); 
+      break; 
+   default: 
+      document.write("Wow that might be a cool flower too!!"); 
+      break; }
+
+      //Example:
+function main() { 
+var themeNumber = parseInt(readLine(), 10) 
+/* 1 - Light 2 - Dark 3 - Nocturne 4 - Terminal 5 - Indigo */ 
+switch (themeNumber) { 
+      case 1: console.log("Light"); 
+            break; 
+      case 2: console.log("Dark"); 
+            break; 
+      case 3: console.log("Nocturne"); 
+            break; 
+      case 4: console.log("Terminal"); 
+            break; 
+      case 5: console.log("Indigo"); } }
+      
+      //Example:
+var day = 2;
+switch (day) {
+    case 1:
+        document.write("Monday");
+        break;
+    case 2:
+        document.write("<h1>Tuesday</br></h1>");
+        
+    case 2:
+        document.write("<i>Wednesday</i>");
+        break;
+    default:
+        document.write("Another day");
+}
+
+var day = "second";
+switch (day) {
+    case "first":
+    document.write("NoN");
+    break;
+    case "third":
+    alert("Hello!");
+    break;
+    case "second":
+    document.write("<font color=blue><h1><br>\"Hello,\n</font>" + "<font color=red>world!\"</h1></font>");
+    break;
+    default:
+    document.write("Hi");
+    
+}
+
+var a = prompt("Enter the day of the week");
+switch (a) {
+    case a == "Monday" || "monday":
+    document.write("<h2>Today is Monday</h2>");
+    break;
+    case a == "Tuesday" || "tuesday":
+    document.write("<h2>Today is Tuesday!</h2>");
+    break;
+    case a == "Wednesday" || "wednesday":
+    document.write(" <font color=red><h2>Today is Wednesday</h2></font");
+    break;
+    case a == "Thursday" || "thursday":
+    document.write("<h2>Today is Thursday</h2>");
+    break;
+    case a== "Friday"||"friday":
+    document.write("<h2>Today is Friday</h2>");
+    break;
+    case a == "Saturday"||"saturday":
+    document.write("<h2>Today is Saturday</h2>");
+    break;
+    case a == "Sunday"||"sunday":
+    document.write("<h2>Today is Sunday</h2>");
+    break;
+
+    default:
+    document.write("Ok,\n Try it again 😴");
+}
+
+      //Example:
+      //What’s the output of this code?
+var x = 3;
+switch (x) {
+  case 1:
+    document.write(x);
+    break;
+  case 2:
+    document.write(x+2);
+    break;
+  default:
+    document.write(x+5);
+}
+
+      /*The answer is 8 coz of "default" statement used here;
+        The switch goes on finding the matching case until it finds '3';
+        since there is no case 3 like case 1 and case 2 hence default statement is executed..*/
+      
+      
+The default Keyword
+      //Often there will be no match, but we still need the program to output something...
+      //for this we use the default keyword, which specifies the code to run if there’s no case match.
+
+      //Like this:
+var color ="yellow";
+switch(color) {
+    case "blue": 
+        document.write("This is blue.");
+        break;
+    case "red":     
+        document.write("This is red.");
+        break;
+    case "green": 
+        document.write("This is green.");    
+        break;
+    case "orange":  
+        document.write("This is orange.");    
+        break;
+    default: 
+        document.write("Color not found.");
+}
+
+      //The default block can be omitted, if there is no need to handle the case when no match is found. 
+      
+      //The "default" statement is used When no match is found
+      
+      
+      
+      
+      
+      
