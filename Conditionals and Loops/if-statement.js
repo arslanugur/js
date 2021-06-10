@@ -1,39 +1,39 @@
 The if Statement
-      Well done! You’re making great progress. On to module 3!
-      Often when we write code, we want to perform different actions based on different conditions.
-      And this is where conditional statements come in.
-      There are a bunch of different conditionals, to cover, but we’re starting with one of the most useful: "if"
-      We use if to specify a block of code that we want to be executed if a specified condition is true.
+      //Often when we write code, we want to perform different actions based on different conditions.
+      //And this is where conditional statements come in.
+      //There are a bunch of different conditionals, to cover, but we’re starting with one of the most useful: "if"
+      //We use if to specify a block of code that we want to be executed if a specified condition is true.
       
 if (condition) {
    statements
 }
 
-      The statements will only be executed if the specified condition is true. Let’s take a look at an example:
+      //The statements will only be executed if the specified condition is true. Let’s take a look at an example:
 var myNum1 = 7;
 var myNum2 = 10;
 if (myNum1 < myNum2) {
     alert("JavaScript.");
 }
 
-      You can see from the example above, 
-      we’ve used the JavaScript alert() to generate a popup alert box that contains the information inside the parentheses.
+      //You can see from the example above, 
+      //alert() to generate a popup alert box that contains the information inside the parentheses.
       
-      You don't have to use curly brackets if there is only one line of code after your if statement, for e.g.: 
+      //You don't have to use curly brackets if there is only one line of code after your if statement, for e.g.: 
 if (5 > 4) 
   alert("Hello"); /* this will alert "Hello" */ 
 if (5 > 9) 
   alert("Hello"); 
   alert("World!"); /* but this will alert only "World!" */
 
-      You will get two alter messages in 1st alert message you will get "Hello" 
-      and when you press OK BUTTON of 1st alert box you will see 2nd alert message where you will get "world" as the message 
+      //You will get two alter messages in 1st alert message you will get "Hello" 
+      //and when you press OK BUTTON of 1st alert box you will see 2nd alert message where you will get "world" as the message 
       
 if(var1 > var2)
 {
    document.write("OK");
 }
 
+      /*
       1. Round brackets are used after an Operator like If or used for a function, eg. 
       functionForNumbers (), Since JavaScript is an interpreted language, 
       If you want the interpreter to consider functionForNumbers as a function you need (). 
@@ -45,26 +45,26 @@ if(var1 > var2)
       In this case (No Milk In Home) is the argument. Only if the argument is satisified it will continue. 
       But when there is milk in home the if statement is not necessary and the Interpreter will skip to the next step 
       and if there’s no next step the interpreter will stop.
+      */
       
-      
-      This is an example of a false conditional statement:
+      //This is an example of a false conditional statement:
 var myNum1 = 7;
 var myNum2 = 10;
 if (myNum1 > myNum2) {
     alert("JavaScript.");
 }
-      Because the condition evaluates to false, 
-      the alert statement gets skipped and the program continues with the line after the if statement's closing curly brace. 
+      //Because the condition evaluates to false, 
+      //the alert statement gets skipped and the program continues with the line after the if statement's closing curly brace. 
 
-      if is in lowercase letters. Uppercase letters (If or IF) won’t work.
+      //if is in lowercase letters. Uppercase letters (If or IF) won’t work.
       
       //Another Example: 
-      var x = 10;
-      var y = 55; 
-      if(x > y){ 
-        document.write("x is smaller than y"); } 
-      else{ 
-        document.write("y is greater than x"); } 
+ var x = 10;
+ var y = 55; 
+ if(x > y){ 
+   document.write("x is smaller than y"); } 
+ else{ 
+   document.write("y is greater than x"); } 
       //output : y is greater than x(Since the 1st condition is false
       
 
@@ -97,10 +97,10 @@ else {
 } //output: false, alert: 10 is greater than 7
 
 
-      What happens if the tested condition is false? -- The code does nothing and moves to the next section
+      //What happens if the tested condition is false? -- The code does nothing and moves to the next section
       
 
-EXAMPLES:     
+      //EXAMPLES:     
       /*The following code will help you in understanding the various conditionals and loops and their use in different situations */
 alert("Check out the code and like it if it helped you.");
 
@@ -123,7 +123,7 @@ if(y>4 && y<6)
 --IF ELSE
 function numb(x,y)
 {
-if (x>y)
+if (x > y)
 {
 document.write("3. " + x + " is greater than " + y + "<br/>"+"<br/>" ) ;
 }
@@ -264,7 +264,7 @@ for(m=0;m<=10;m++)
 
 if(m==6)
 {
-  break; // terminates the loop
+  break; //terminates the loop
 }
   document.write( " The number is at " + m+ "th" + " position " + "<br/>" );
 }
@@ -275,15 +275,10 @@ var n;
 for(n=0;n<8;n++)
 {
 
-if( n===4 )
+if(n===4)
 {
   continue ; //skips the statement conditioned and resumes execution
 }
 document.write( " The number is at " + n+ "th" + " position " + "<br/>" );
 }
-
-
-
-
-
 
