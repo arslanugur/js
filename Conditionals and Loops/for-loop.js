@@ -293,7 +293,102 @@ for (i = 0; i < 100; i++) {
 	1.5005205362068963e+21
 	*/
       
-      
-      
+
+	//Example: Xmas
+	//CSS Code:
+body {
+background-color: black;
+    text-align: center;
+        color: #ff0000;
+        animation: 3s blinker linear infinite;
+        -webkit-animation: 3s blinker linear infinite;
+        -moz-animation: 3s blinker linear infinite;
+
+         color: green; 
+      }
+
+      a {
+        color: #ff0000;
+        text-decoration: none;
+      }
+
+      a:visited {
+        color: #ff0000;
+      }
+
+      @-moz-keyframes blinker {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      @-webkit-keyframes blinker {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        } 
+        100% {
+          opacity: 1;
+        }
+      }
+ 
+      @keyframes blinker {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+}
+
+	//JS Code:
+var star = "*";
+var dot = ".";
+var dolar = ";"
+var counter = 0;
+var span = document.querySelector("span");
+
+function xmas(){
+    for(i=0;i<20;i++){
+
+       for(n=1;n<i;n++){
+       counter++;
+            document.write(star + " ");
+            if(n%2!=0){
+               document.write("<span style='color:red;'>" + dot + "</span>" + " ");
+            } else {
+                document.write("<span style='color:yellow;'>" + dolar + "</span>" + " ");
+            }
+             }
+        document.write("<br/>");
+    }
+    
+       for(m=1;m<4;m++){
+        
+        
+       for(w=1;w<5;w++){
+            document.write("<span style='color:brown; font-weight: bold; padding: 0 px;'>#</span>");
+            }
+             document.write("<br/>");
+             
+    }
+    document.write("<span id='text'; style='color:orange;'>" + "<h1>Merry Xmas</h1>" + "</span>" + " ");
+    //document.write(counter);
+}
+document.write("<span  style='color:#d834af; font-size: 40px;'>" + star + "</span>" + " ");
+
+xmas();
 
 
