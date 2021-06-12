@@ -132,4 +132,12 @@ while(x <= 5) {
       //And one way of this happening is if we forget to increase the variable used in the condition. 
 
       //Make sure that the condition in a while loop eventually becomes false.
+      //While loop get you so many times with infinite loop. Therefore, use technique until sure while loop is working
+var limitIndex = 0; 
+var limit = 10; 
+while( condition ) { 
+	if(limit < limitIndex) { 
+		break; } limitIndex++; }
+
+
 
