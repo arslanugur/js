@@ -142,19 +142,14 @@ while( condition ) {
       //Basically it allows a loop to run at maximum 10 times. 
       //The loop will run as long as limit < limitIndex. 
       //Every cycle, this happens: 
-      //limit remains constant and limitIndex += 1 limit = 10 and limitIndex = 0 limit = 10 
-      							      and limitIndex = 1 limit = 10 
-							      and limitIndex = 2 limit = 10 
-							      and limitIndex = 3 limit = 10 
-							      and limitIndex = 4 limit = 10 
-							      and limitIndex = 5 limit = 10 
-							      and limitIndex = 6 limit = 10 
-							      and limitIndex = 7 limit = 10 
-							      and limitIndex = 8 limit = 10 
-							      and limitIndex = 9 limit = 10 
-							      and limitIndex = 10 limit = 10 
-							      and limitIndex = 11 
-							      Now the loop breaks because limit < limitIndex :) 
+      /*limit remains constant 
+	and limitIndex += 1 limit = 10 
+	and limitIndex = 0 limit = 10 
+      	...
+	and limitIndex = 9 limit = 10 
+	and limitIndex = 10 limit = 10 
+	and limitIndex = 11 
+	Now the loop breaks because limit < limitIndex */ 
 
 
 	//Example:	
@@ -183,7 +178,7 @@ j--;
 	
 
 	//Infinite times will the while loop run, if we remove the counting variable increment statement.
-	//However, an increment or decrement is not required. 
+	//An increment or decrement is not required. 
 	//The loop continues as long as the conditional evaluates to true. 
 	//Example: Infinity Loop!!
 while(1){ 
