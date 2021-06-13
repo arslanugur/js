@@ -1,14 +1,14 @@
 What is Angular.js?
-Angular.js: Expressions
-Angular.js: Data Binding
-Introduction to Node.js
-Angular.js: Directives
-Introduction to React.js
-Angular.js: A To-Do App
-Angular.js: Controllers
-Node.js: Cheat Sheet
-Angular.js: Events
+AngularJS: Expressions
+AngularJS: Data Binding
+AngularJS: Directives
+AngularJS: A To-Do App
+AngularJS: Controllers
+AngularJS: Events
 Hello, React!
+Introduction to React.js
+Introduction to Node.js
+Node.js: Cheat Sheet
 npm (Node Package Manager)
 Project Setup
 Virtual DOM
