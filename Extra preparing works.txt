@@ -2,78 +2,77 @@ What is Angular.js?
 AngularJS: Expressions
 AngularJS: Data Binding
 AngularJS: Directives
-AngularJS: A To-Do App
 AngularJS: Controllers
 AngularJS: Events
+AngularJS: A To-Do App
 Hello, React!
 Introduction to React.js
+React Element Styling
+React Components
 Introduction to Node.js
-Node.js: Cheat Sheet
 npm (Node Package Manager)
 Project Setup
-Virtual DOM
-Creating Web Server
 Modules
-Password Validation
-What is JSON?
-React Element Styling
-RESTful API with Node.js & Express
-Refactoring to ES6
-JSX
-nodemon
-Vibration API
 Core Modules
-React Components
-Project Setup
+Creating Web Server
 The fs Module
-Functional Components
-Express.js Project Setup
-Google Maps API
-State, contd.
 Update Files
-Class and Functional Components
 Async vs Sync File Operations
-Props
 The path Module
 Events
-React Libraries
+Timers
+Canceling Timers
+Streams
+Writable and Readable Streams
+Writable Stream Events
+Writable Stream Functions
+Readable Stream Events
+Readable Stream Functions
+Piping
+RESTful API with Node.js & Express
+Express.js Project Setup
 First Request Handler
 Making API Requests
+Users Route(GET)
+Users Route Setup
+Users Route(POST)
+Get User by ID
+Update Users
+Status Codes
+nodemon
+Error handling
+React with Redux
+Body Parser
+Body Parser in Use
+Cross-Origin Resource Sharing
+Node.js: Cheat Sheet
+Virtual DOM
+JSX
+Password Validation
+What is JSON?
+Refactoring to ES6
+Vibration API
+Project Setup
+Functional Components
+Google Maps API
+State, contd.
+Class and Functional Components
+Props
+React Libraries
 Events
 JavaScript Hoisting
 State
-Writable Stream Events
-Timers
-Streams
 State & Props: Practice Time
-Users Route(GET)
 Redux
-Canceling Timers
-Codes Route
-Error handling
-Get User by ID
-React with Redux
-Writable and Readable Streams
 Events, contd.
-Users Route Setup
 Routing
-Status Codes
 Apply Routing
-Users Route(POST)
 Component Lifecycle
 Redux: Core Concepts
-Body Parser
-Writable Stream Functions
-Update Users
 Prepare for Routing
 Node.js Glossary
 Redux: Combine Reducers
-Piping
 React with Redux, contd.
-Cross-Origin Resource Sharing
-Body Parser in Use
-Readable Stream Functions
-Readable Stream Events
 Redux: Dispatching Actions
 process.env
 State & Props: Assignment Solution
