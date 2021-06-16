@@ -1,4 +1,4 @@
-JavaScript Functions
+//JavaScript Functions
       //Function is a certain block of code that can be reused over and over again
       //A JS function is a block of code designed to perform a particular task.
       //The main advantages of using functions:
@@ -46,7 +46,7 @@ sayHi("Sam", 35);
 		toFahrenheit(40); // Change values here to convert them into fahrenheit
 </script>
 
-Defining a Function
+//Defining a Function
       //To define a JavaScript function, use the function keyword, 
                    //followed by a name, followed by a set of parentheses ().
 
@@ -66,7 +66,7 @@ sayHello(prompt("Whats your name?"), prompt("How many hours do you work on JS?")
 
 
 
-Calling a Function
+//Calling a Function
       //To execute the function, you need to call it.
       //To call a function, start with the name of the function, then follow it with the arguments in parentheses.
       //Example:
@@ -126,19 +126,19 @@ ageDialog();
 
       //Example: Calculator
 function insert(num){
-				document.form.textview.value = document.form.textview.value+num;
-			}
-			function equal(){
-				var exp = document.form.textview.value;
-				if (exp){
-					document.form.textview.value = eval(exp);
-				}
-			}
-			function clean(){
-				document.form.textview.value = "";
-			}
-			function back(){
-				var exp = document.form.textview.value;
-				document.form.textview.value = exp.substring(0,exp.length-1);
-			}
+	document.form.textview.value = document.form.textview.value+num;
+}
+function equal(){
+	var exp = document.form.textview.value;
+	if (exp){
+		document.form.textview.value = eval(exp);
+	}
+}
+function clean(){
+ 	document.form.textview.value = "";
+	}
+function back(){
+	var exp = document.form.textview.value;
+	document.form.textview.value = exp.substring(0,exp.length-1);
+}
 
