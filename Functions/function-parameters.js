@@ -12,7 +12,7 @@ function call(pokemon)
 } 
 call("Pikachu") //Output: Pikachu I choose you
 
----
+//Code:
 function charizard(selectMove) 
 { 
   document.write("Charizard, use " + selectMove + "!") 
@@ -161,22 +161,24 @@ sayHello("Sarah");
 sayHello("John");
 
       //This will execute the function's code each time for the provided argument.
+
+      //Code: 
+function sayHello(name) {
+    alert("Hi, " + name);
+}
+sayHello("Javascript");
+sayHello("html");
+sayHello("css");
+
+      //to declare a function and call it, by passing "Test" as the argument:
+function  myAlert(txt) {
+   alert("Hello " + txt);
+}
+myAlert("Test");
+
+
   
-  DEVAM EDECEKk
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  // a basic function that accepts two arguments and handles where one or both are missing
+// a basic function that accepts two arguments and handles where one or both are missing
 function sayHello(name, age) {
 // neither argument passed
 if(name==undefined && age==undefined){
@@ -203,5 +205,6 @@ document.write("<br>");
 sayHello("John", 20); // both parameters passed
 document.write("<br>");
 sayHello("Duncan"); // no age passed
-  
-  
+      
+      
+      
