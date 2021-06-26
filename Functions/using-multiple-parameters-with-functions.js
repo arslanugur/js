@@ -13,7 +13,7 @@ function myFunc(x, y) {
       //To define multiple parameters for a function and make it make you input values for all parameters: 
       //Example:
 function myFunction(name, age, skills) { 
-  alert("Hi " + name + ". You are " + age + " years old. And you got an amazing set of skills that include: " + skills); 
+  alert("Hi " + name + ". You are " + age + " years old. And you got an set of skills that include: " + skills); 
 } 
 
 var name = prompt(); 
