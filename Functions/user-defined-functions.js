@@ -1,4 +1,20 @@
-//JavaScript Functions
+JS Functions Three Ways
+//Function Declaration
+function square(x) {
+  return x * x
+}
+
+//Function Expression
+const square = function(x) {
+  return x * x
+} 
+
+//Arrow Function
+const square = (x) {
+  return x * x
+} 
+
+JavaScript Functions
       //Function is a certain block of code that can be reused over and over again
       //A JS function is a block of code designed to perform a particular task.
       //The main advantages of using functions:
