@@ -86,3 +86,13 @@ document.write("This is some text");
         The methods of an object cat can include things he can do, such as to meow(), drink(), eat(), sleep() etc. 
         So for practical purposes, methods are actions of an object, while properties are innate features of it.*/
       
+ var car = { 
+      car1: "BMW", 
+      car2: "Benz", 
+      car3: "Lambo", 
+      
+      getNamesOfCars : 
+      function () { 
+      document.write(car.car1 + " " + car.car2 + " " + car.car3); } }; 
+      explaining of the example : we defined an object named car . car objetct has 4 properies , the last property is a method , we can use and call this method with this code : car.getNamesOfCars(); we can see that car is an object that has some properties like car1 , car2 , car3 and getNamesOfCars method , and we can return the value of the properties by the method .
+ 
