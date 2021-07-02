@@ -79,3 +79,10 @@ objectName.methodName()
 document.write("This is some text");
 
       //Methods are functions that are stored as object properties.
+      
+      /*An object can have both properties and methods. 
+        To understand the difference, let us take a real life example of an object, say, a cat. 
+        The properties of object cat can include that he has legs = 4, pattern = "striped", sex = "male", ears = 2, etc. 
+        The methods of an object cat can include things he can do, such as to meow(), drink(), eat(), sleep() etc. 
+        So for practical purposes, methods are actions of an object, while properties are innate features of it.*/
+      
