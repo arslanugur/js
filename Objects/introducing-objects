@@ -94,5 +94,21 @@ document.write("This is some text");
       getNamesOfCars : 
       function () { 
       document.write(car.car1 + " " + car.car2 + " " + car.car3); } }; 
-      explaining of the example : we defined an object named car . car objetct has 4 properies , the last property is a method , we can use and call this method with this code : car.getNamesOfCars(); we can see that car is an object that has some properties like car1 , car2 , car3 and getNamesOfCars method , and we can return the value of the properties by the method .
- 
+      /*
+      explaining of the example : 
+      we defined an object named car . car objetct has 4 properies , the last property is a method, 
+      we can use and call this method with this code : car.getNamesOfCars(); 
+      we can see that car is an object that has some properties like car1 , car2 , car3 and getNamesOfCars method, 
+      and we can return the value of the properties by the method. */
+
+      //Access the "color" property of the "hair" object using dot syntax.
+hair.color  //hair is the Object and then color as a property and it's not a method
+
+      //Difference between method and property
+objectName.propertyName 
+objectName.methodName()
+
+
+
+
+
