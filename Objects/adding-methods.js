@@ -18,10 +18,10 @@ function person(name, age) {
     }
 }
 
-var p = new person("David", 21);
+var p = new person("David", 21); //New name is John. So we changed it from David to John. p.changeName("John");
 p.changeName("John");
 
-document.write(p.name);
+document.write(p.name);   //And we print it document.write(p.name);
 
       /*In the example above, we have defined a method named changeName for our person, which is a function, 
         that takes a parameter name and assigns it to the name property of the object.
@@ -29,11 +29,36 @@ document.write(p.name);
 
       //The changeName method changes the object's name property to its argument.
 
- ction (newname) { this.name = newname; } } var p = new person("David", 21); //New name is John. So we changed it from David to John. p.changeName("John"); //And we print it document.write(p.name);
-                            
+      //Example:
+function product(name, price , stock) { 
+      this.name = name; 
+      this.price = price; 
+      this.stock =stock; 
+      this.outOfStock = 
+
+function (stock ) { 
+      this.stock = stock ; } } 
+
+var p = new product("mobile", 21,"instock" ); 
+    p.outOfStock("outOfStock" ); 
+
+document.write(p.stock );
 
 
 
+      //The "this" keyword in the method means: The current object
 
+      //You can also define the function outside of the constructor function and associate it with the object.
+function person(name, age) {
+  this.name= name;  
+  this.age = age;
+  this.yearOfBirth = bornYear;
+}
 
+function bornYear() {
+  return 2016 - this.age;
+}
+
+      //As you can see, we have assigned the object's yearOfBirth property to the bornYear function.
+      //The this keyword is used to access the age property of the object, which is going to call the method.
 
