@@ -33,6 +33,54 @@ DOM Tree
 
       //It is important to understand the relationships between elements in an HTML document.. 
       //in order to be able to manipulate them with JavaScript.
-edededede
 
-  
+
+      //It's also important for styling in CSS. 
+      //If you understand relations, you can easily use inheritance 
+      //by adding combinators to give specific style to siblings, children or other descendants. 
+      //It's very useful in more complicated projects. 
+      //For example, we can set style to only first child or even child or all children but not distant descendants. 
+      //Example: div ~ p { border-radius: 10px; } It gives rounded corners to all siblings of the element. 
+      //In addition, properties like color or font-family are inherited from the first ancestor (html element), 
+      //but in some cases we don't want to give all elements the same property. 
+      //We can do it the hard way, declaring every element separately or use the knowledge about DOM. 
+
+
+      //Example
+//In the following HTML, which element is the parent of h1? -> p
+<body>
+  <p><h1>Hi</h1></p>         //<parent><child>Hi</child></parent>
+</body>
+ 
+//Siblings are both within the same parent but not within each other. 
+//<parent> <sibling1></sibling1> <sibling2></sibling2> </parent> 
+
+
+The document Object = the root of DOM
+      //There is a predefined document object in JavaScript, which can be used to access all elements on the DOM.
+      //In other words, the document object is the owner (or root) of all objects in your webpage.
+      //So, if you want to access objects in an HTML page, you always start with accessing the document object. 
+
+      //For example:
+document.body.innerHTML = "Some text";
+
+      //As body is an element of the DOM, 
+      //we can access it using the document object and change the content of the innerHTML property.
+
+      //The innerHTML property can be used on almost all HTML elements to change its content.
+
+      //The innerHTML property is... 
+      //...read-only on the col, colGroup, frameSet, html, head, style, table, tBody, tFoot, tHead, title, and tr objects. 
+      //So it cannot be used to change any element.
+
+      //https://www.w3schools.com/jsref/dom_obj_all.asp
+
+      //The document object is the root of the DOM, not body. (document object contains whole document) 
+      //Every HTML element has the innerHTML property. It can return any element. 
+      //innerHTML property isn't a method, it's a variable or in some elements only a constant.
+
+
+
+
+
+
