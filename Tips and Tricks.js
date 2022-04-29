@@ -11,7 +11,7 @@
 
 
 
-// Seven Killer One-liners
+// KILLER ONE LINERS
 // 01. The Shuffle Array
 // While using algorithms that require some degree of randomization, you'll often find shuffling arrays quite a necessary skill.
 // The following snippet shıffles an array in place with 0(n log n) complexity.
@@ -44,6 +44,11 @@ const isDarkMode = () => window.matchMedia && window.matchMedia("(prefers-color-
 // Testing
 console.log(isDarkMode());
 
+// Second Way:
+//  with this one-liner, you can check if the user is using dark mode (and then you can update some functionality according to dark mode)
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match;
+
+
 // 05. Scroll to Top
 // Beginners very often find themselves struggling with scrolling elements.
 // The easiest way to stroll elements is to use the scrollIntoView method.
@@ -59,6 +64,76 @@ const scrollToBottom = (element) => element.scrollIntoView({ behavior: "smooth",
 // 07. Generate Random Color
 // Does your app rely on rando color generation? Look no further, the following snippet got you covered!
 const generateRandomHexColor = () => '#${Math.floor(Math.random() * 0xffffff.toString()16)}';
+
+
+// 08. Extract Domain Name From An Email
+// you can use the substring() method to extract the domain name of the email,
+let email = 'xyz@gmail.com';
+le getDomain = email.substring(email.indexOf('@') + 1);
+
+console.log(get Domain);    // output - gmail.com
+
+
+// 09. Generate Random String
+//  If you will ever need a temporary unique id for something. This one-liner will generate a random string for you
+const randomString = Math.random().toString(36).slice (2);
+console.log(randomString);
+//output- rozflxfqcr (the string will be random)
+
+
+// 10. Check if an Element is Focused
+// to detect if the element has the focus in JavaScript, 
+// you can use the read-only property active Element of the Document object.
+const elem = document.querySelector(' .text-input');
+const isFocus = elem == document.activeElemnt;
+/* isFocus will be true if elem will have focus, and isFocus will be false if elem will not have focus */
+
+// 11. Redirecting User
+// you can redirect the user to any specific URL using JavaScript.
+const redirect = url => location.href = url
+/* call redirect (url) whenever you want to redirect the user to a specific url */
+
+
+// 12. Check If a Variable is an Array
+// You can check if any Variable is an Array or not using the Array.isArray() method,
+let fruit = 'apple';
+let fruits = ["apple", "banana", "mango", "orange", "grapes"];
+
+const isArray = (arr) => Array.isArray(arr);
+
+console.log(isArray. (fruit)); //output false
+console.log(isArray. (fruits)), //output- true
+
+
+// 13.  Check If An Array Is Empty
+// this one-liner will let you know if an array is empty or not.
+let arr1 = [];
+let arr2 = [2, 4, 6, 8, 10];
+
+const arrlIsEmpty = !(Array.isArray(arrl) && arr1.length >0);
+const arr2IsEmpty = !(Array.isArray(arr2) && arr2.length >0);
+
+console.log(arrl);  //output true
+console.log(arr2);  // output false
+
+
+// 14. Easy way to access Index in for ... of 
+const items = ['a', 'b', 'c', 'd', 'e'];
+
+// We're using array destructuring to access the index ...
+for (const [index, item] of items. entries()) {   // We're calling the 'entries()' method of each item ...
+  console.log('${index): ${item}');
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
