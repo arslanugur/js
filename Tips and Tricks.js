@@ -1,3 +1,17 @@
+// JS Array Cheatsheet
+['a', 'b'].concat(['c'])          // ['a', 'b', 'c']
+['a', 'b'].join(['-'])            // 'a- b'
+['a', 'b', 'c'].slice(1)          // [ 'b', 'c']
+['a', 'b', 'c'].indexOf('b')      // 1
+['a', 'b', 'b'].lastIndexOf('b')  // 2
+[1, 2, 3].map(x => x * 2)         // [2, 4, 6]
+[2, 15, 3].sort()                 // [15,2,3]
+[1,2,3].reverse()                 // [3, 2, 1]
+
+
+
+
+// Seven Killer One-liners
 // 01. The Shuffle Array
 // While using algorithms that require some degree of randomization, you'll often find shuffling arrays quite a necessary skill.
 // The following snippet shıffles an array in place with 0(n log n) complexity.
