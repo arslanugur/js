@@ -173,5 +173,144 @@ const isEven = num => num % 2 ===0;
 console.log(isEven(2));   // Result: True
 
 
+// 01. FOR LOOP SHORTHAND
+// LONGHAND
+const fruits = ['mango', 'peach', 'banana'];
+for (let i = 0; i < fruits.length; i++)
+// SHORTHAND
+for (let fruit of fruits)
+// If you just wanted to access the index, do:
+for (let index in fruits)
+
+  
+// 02. Math Shorthands
+// Shorthand for Math.floor()
+  // Longhand
+Math.floor(4.9) === 4 //true
+  // Shorthand
+~~4.9 === 4 //true
+
+// Shorthand for Math.pow()
+  // Longhand
+Math.pow(2,3); // 8
+Math.pow(2, 2); // 4
+  //Shorthand
+2**3 // 8
+2**2 // 4 
+
+
+// 03. Find Function Shorthand
+  // Long Hand
+const pets = [
+  { type: 'Dog', name: 'Max'},
+  { type: 'Cat', name: 'Karl'},
+  { type: 'Dog', name: 'Tommy'},
+]
+
+function findDog(name) {
+  for(let i = 0; i<pets.length; ++i) {
+    if(pets[i].type === 'Dog' &&
+pets[i].name === name) {
+      return pets[i];
+    }
+  }  
+}
+
+  // Short Hand
+pet = pets.find(pet => pet.type === 'Dog' && pet.name === 'Tommy');
+console.log(pet); // { type: 'Dog', name: 'Tommy' }
+
+
+// 04. Joining & Cloning Arrays
+  // Longhand
+// joining arrays
+const odd = [1, 3, 5];
+const nums = [2,4, 6].concat(odd);
+console.log(nums); // [2, 4, 6, 1, 3, 5 ]
+
+// cloning arrays
+const arr = [1, 2, 3, 4];
+const arr2 = arr.slice()
+
+  // Shorthand (Using Spread operator)
+// joining arrays
+const odd = [1, 3, 5 ];
+const nums = [2,4, 6, ...odd];
+console.log(nums); // [2, 4, 6, 1, 3, 5 ]
+// cloning arrays
+const arr = [1, 2, 3, 4];
+const arr2 = [...arr];
+
+
+// 05. String Into A Number
+  // Long Hand
+const num1 = parseInt("100");
+const num2 = parseFloat("100.01");
+  // Short Hand
+const num1 = +"100";
+// converts to int data type
+const num2 = +"100.01";
+// converts to float data type
+
+
+// 06. Destructuring Assignment
+  // Longhand
+const observable = require('mobx/observable');
+const action = require('mobx/action');
+const runInAction = require('mobx/runInAction');
+
+const store = this.props.store;
+const form = this.props.form;
+const loading = this.props.loading;
+const errors = this.props.errors;
+const entity = this.props.entity;
+  // Shorthand
+import { observable, action, runInAction } from 'mobx';
+const { store, form, loading, errors, entity} = this.props;
+// You can even assign your own variable names:
+const { store, form, loading, errors, entity:contact } = this.props;
+
+
+// Short Circuit Evaluation
+  // Long Hand
+let dbHost;
+if (process.env.DB_HOST) {
+  dbHost = process.env.DB_HOST;
+} else {
+  dbHost = 'localhost';
+}
+  // Short Hand
+const dbHost = process.env.DB_HOST || 'localhost';
+
+
+
+// Template Literals
+  // Longhand
+const welcome = 'You have logged in as ' + first + + last + '.'
+const db = 'http://' + host + ':' + port + '/' + database;
+  // Shorthand
+const welcome = 'You have logged in as ${first} ${last}';
+const db = 'http://${host}:${port}/${database}';
+
+
+
+
+Other Shorthands
+- Arrow Functions
+- Implicit return Shorthand
+- Object Property Shorthand
+- Decimal Base etc
+
+
+
+
+
+
+
+
+
+
+
+
 
 
