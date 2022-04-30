@@ -172,6 +172,11 @@ console.log(remove Duplicates([1, 2, 3, 3, 4, 4, 5, 5, 6]));    // Result: [1, 2
 const isEven = num => num % 2 ===0;
 console.log(isEven(2));   // Result: True
 
+// 23. Get Selected Text
+const getSelectedText() --> window.getSelection().toString();
+getSelected Text();
+
+
 
 // 01. FOR LOOP SHORTHAND
 // LONGHAND
