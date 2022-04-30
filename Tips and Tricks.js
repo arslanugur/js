@@ -55,6 +55,11 @@ const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme
 // Add behaviour: "smooth" for a smooth scrolling animation
 const scrollToTop = (element) => element.scrollIntoView({ behavior: "smooth", block: "start"});
 
+// Second Way
+// You can use window.scrollTo(0, 0) method to automatic scroll to top. Set both x and y as 0.
+const goToTop = () => window.scrollTo(0, 0);
+goToTop();
+
 
 // 06. Scroll to Bottom
 // Just like the scrollToTop method, the scrollToBottom method can easily be implemented using the scrollIntoView method, only by switching the block value to end
@@ -105,7 +110,7 @@ console.log(isArray. (fruit)); //output false
 console.log(isArray. (fruits)), //output- true
 
 
-// 13.  Check If An Array Is Empty
+// 13. Check If An Array Is Empty
 // this one-liner will let you know if an array is empty or not.
 let arr1 = [];
 let arr2 = [2, 4, 6, 8, 10];
@@ -126,13 +131,46 @@ for (const [index, item] of items. entries()) {   // We're calling the 'entries(
 }
 
 
+// 15.Convert RGB to Hex
+const rgbToHex = (r, g, b) => "#" + ((1<< 24) + (r << 16) + (g << 8) + b).toString(16).slice(1);
+rgbToHex(0, 51, 255); // Result: #0033ff
 
 
+// 16. Check if Date is valid
+// Use the following snippet to check if a given date is valid or not.
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+
+isDateValid("December 17, 1995 03:24:00");    // Result: true
 
 
+// 17. Generate Random Hex
+// You can generate random hex colors with Math.random and padEnd properties.
+const randomHex = () => '#$(Math.floor(Math.random()* 0xffffff).toString(16).padEnd (6, "0")}';
+console.log(randomHex());
+// Result: #92b008
+
+// 18. Clear All Cookies
+// You can easily clear all cookies stored in a web page by accessing the cookie using document.cookie and clearing it.
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, '=; expires=${newDate(0).toUTCString()}; path=/'));
+
+// 19. Find the day of year
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+dayOfYear(new Date());  // Result: 272
+
+// 20.Capitalise a String
+// Javascript doesn't have an inbuilt capitalise function, so we can use the following code for the purpose.
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1)
+capitalize("follow for more")     // Result: Follow for more
 
 
+// 21. Remove Duplicated from Array
+// You can easily remove duplicates with Set in JavaScript. Its a life saver.
+const removeDuplicates = (arr) => [...new Set (arr)];
+console.log(remove Duplicates([1, 2, 3, 3, 4, 4, 5, 5, 6]));    // Result: [1, 2, 3, 4, 5, 6]
 
+// 22. Check if a number is even or odd
+const isEven = num => num % 2 ===0;
+console.log(isEven(2));   // Result: True
 
 
 
