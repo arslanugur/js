@@ -217,6 +217,40 @@ console.log(country.substring(3))   // land
 
 
 
-// 18. 
+// 18. toLowercase()
+// toLowerCase(): this method changes the string to lowercase letters.
+let string = 'JavasCript'
+console.log(string.toLowerCase())     // javascript
+let firstName = 'Asabeneh'
+console.log(firstName.toLowerCase())  // asabeneh
+let country = 'Finland'
+console.log(country.toLowerCase())   // finland
+
+
+
+// 19. toUppercase()
+// toUpperCase(): this method changes the string to uppercase letters.
+
+let string = 'JavaScript'
+console.log(string.toUpperCase())      // JAVASCRIPT
+let firstName = 'Asabeneh'
+console.log(firstName.toUpperCase())  // ASABENEH
+let country = 'Finland'
+console.log(country.toUpperCase())    // FINLAND
+
+
+
+// 20. trim()
+//trim(): Removes trailing space in the beginning or the end of a string.
+let string = '   30 Days Of JavaScript   '
+console.log(string)     // 
+console.log(string.trim(' '))  // 
+let firstName = ' Asabeneh '
+console.log(firstName)
+console.log(firstName.trim())  // 
+
+
+
+
 
 
