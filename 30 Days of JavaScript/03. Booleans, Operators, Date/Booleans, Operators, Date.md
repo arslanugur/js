@@ -9,7 +9,7 @@
 
   <sub>Author:
   <a href="https://www.linkedin.com/in/-arslanugur-/" target="_blank">Arslan Uğur</a><br>
-  <small> January, 2020</small>
+  <small> June, 2022</small>
   </sub>
 </div>
 
