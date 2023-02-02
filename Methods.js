@@ -15,47 +15,16 @@
 'mi du dev'.split(' ')        // ['mi', 'du', 'dev' ]
 
 
+
+
 // ARRAY METHODS
-// Part I
-toString)
-join()
-pop[)
-push()
-shift()
-unshift()
-
-// Part II
-delete
-concat()
-sort()
-splice()
-slice()
-reverse()
-
-// Part III
-isArray()
-indexOf()
-lastIndexOf()
-find()
-findIndex()
-includes()
-
-// Part IV
-entries()
-every()
-some()
-fill()
-copyWithin( )
-valueOf()
-
-// Part V
-forEach()
-map()
-filter()
-reduce()
-reduceRight()
-from()
-
+// Part I         // Part II          // Part III         // Part IV          // Part V
+toString()        delete              isArray()           entries()           forEach()
+join()            concat()            indexOf()           every()             map()
+pop()             sort()              lastIndexOf()       some()              filter()
+push()            splice()            find()              fill()              reduce()
+shift()           slice()             findIndex()         copyWithin()        reduceRight()
+unshift()         reverse()           includes()          valueOf()           from()
 
 
 // 01. toString()
@@ -71,7 +40,7 @@ console.log(bikes.toString());    // "W,X,Y,Z"
 
 
 // 02. join()
-// The join( ) returns a new string by concatenating all of the elements in an array, separated by commas or a specifed separator string.
+// The join() returns a new string by concatenating all of the elements in an array, separated by commas or a specifed separator string.
 
 // Syntax
 array. join(separator)
