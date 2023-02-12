@@ -30,6 +30,8 @@ shift()           slice()             findIndex()         copyWithin()        re
 unshift()         reverse()           includes()          valueOf()           from()
 
 
+// ARRAY METHODS: PART ONE
+--------------------------
 // 01. toString()
 // The toString() Returns a string with array values separated by commas.
 // And it does not change the original array.
@@ -143,7 +145,134 @@ array.unshift(4);
 // .unshift() can take one or more parameters.
 
 
-// PART TWOOOO
+// ARRAY METHODS: PART TWO
+--------------------------
+// 07. delete (operator)
+// Array elements can be deleted using the JavaScript operator delete,
+// Using delete leaves -undefined holes- in the array.
+
+// Syntax
+delete array [index]; 
+
+// Example
+let fruits = ["banana", "apple", "grapes"];
+delete fruits[1]; //  0   1        2
+console.log(fruits);    // [ 'banana', <1 empty item>, 'grapes' ]
+
+// 08. concat()
+// The concat() method concatenates (joins) two or more arrays. returns a new array, containing the joined arrays.
+
+// This method does not change the existing arrays.
+array1.concat(array2, array3, ..., arrayX) // Syntax
+
+// Example
+let ary1 = [1, 2, 3];
+let ary2 = [23, 43, 53];
+let ary3 = [111, 12];
+
+let ary_new = ary1.concat(ary2, ary3);
+
+console.log(ary_new); // returns new array        // [1, 2, 3, 23, 43, 53, 111, 12]
+
+// 09. sort()
+// The sort( sorts the elements of an array, and overwrites the original array.
+// Sorts the elements as strings in alphabetical and ascending order.
+
+// Syntax
+array.sort(compareFunction);
+
+// sort() takes an optional compare function.
+// Example
+let ary = [99, 32, 23, 43, 53];
+let str = ["zebra", "year", "van", "apple"];
+
+ary.sort();
+console.log(ary);
+// [23, 32, 43, 53, 99]
+
+str.sort();
+console.log(str);
+// ['apple', 'van', 'year', 'zebra']
+
+
+// 10. splice()
+// The splice() method adds and/or removes array elements.
+// The splice() method overwrites the original array.
+// Syntax
+array.splice(index, howmany, item1, ... , itemX)
+
+// Example
+let arry = [99, 32, 23, 43, 53, 100];
+arry.splice(2, 3, "a", "b","c");
+console.log(arry);                // [99, 32, 'a', 'b', 'c', 100]
+
+// 11. slice()
+// The slice() slices out a piece from an array. It creates a new array.
+// Syntax
+array.slice(start, end);
+
+// Example
+let numbers = [1, 2, 3, 4, 5, 6];
+let num2 = numbers.slice(1, 4);
+console.log(num2);      // [2, 3, 4]
+
+
+// 12. reverse()
+// The reverse() method reverses the order of the elements in an array.
+
+// This method overwrites the original array.
+// Syntax
+array.reverse();
+
+// Example
+let numbers = [1, 2, 3, 4, 5, 6];
+let strng = ["A", "B","C", "D"];
+numbers.reverse();
+console.log(numbers);   // [ 6, 5, 4, 3, 2, 1 ]
+strng.reverse();
+console.log(strng);     // [ 'D', 'C', 'B', 'A' ]
+
+
+
+// ARRAY METHODS: PART THREE
+----------------------------
+// 13. isArray()
+// 14. indexOf()
+// 15. lastIndexOf()
+// 16. find()
+// 17. findIndex()
+// 18. includes()
+
+
+// ARRAY METHODS: PART FOUR
+---------------------------
+// 19. entries()
+// 20. every()
+// 21. some()
+// 22. fill()
+// 22. copyWithin()
+// 23. valueOf()
+
+  
+// ARRAY METHODS: PART FIVE
+---------------------------
+// 24. forEach()
+// 25. map()
+// 26. filter()
+// 27. reduce()
+// 28. reduceRight()
+// 29. from()
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -185,6 +314,7 @@ number.parseInt()
 
 
 // Part I: Converting Variables to Num & String
+-----------------------------------------------
 // 01. toString()
 // The toString() method returns a number as a string.
 
@@ -196,7 +326,6 @@ let num = 24;
 let str = num.toString();
 console.log(str, typeof str); // 24, string
 
-------------------------
 
 // 02. Number()
 // The Number() method can be used to convert JS variables to numbers,
@@ -220,7 +349,7 @@ console.log(Number("10, 33"));  // NaN
 console.log(Number("10 33") );  // NaN
 console.log(Number("Code"));    // NaN
 
-------------------------
+
 // 03. parseFloat()
 // The Number.parseFloat() method parses a value as a string and returns the first number.
 // If the first character cannot be converted, NaN is returned, Leading and trailing spaces are ignored.
@@ -236,7 +365,8 @@ Number.parseFloat("10.33");     // 10.33
 Number.parseFloat("45 66");     // 45
 Number.parseFloat("He was 40"); // NaN
 
-------------------------
+
+
 // 04. parseInt()
 // The Number.parselnt() method parses a value as a string and returns the first integer.
 // If the first character cannot be converted, NaN is returned. Leading and trailing spaces are ignored. 
@@ -255,9 +385,9 @@ Number.parseInt("40 years");  // 40
 Number.parseInt("He was 40"); // NaN
 
 
-------------------------
 
 // Part II: Number Methods
+--------------------------
 // 01. toExponential()
 // The toExponential() method converts a number into an exponential notation. 
 // It is a "shorthand" way of writing repeated multiplication.
@@ -268,7 +398,6 @@ number.toExponential(x);
 let num= 5.56789;
 let n = num.toExponential(3);   // 5.568e+0
 
-------------------------
 
 // 02. toFixed()
 // The toFixed() method converts a number to a string. 
@@ -284,7 +413,6 @@ let n = num.toFixed();   // 6
 let num = 5.56789;
 let n = num.toFixed(2);   // 5.57
 
-----------------------------
 
 // 03. toPrecision()
 // The toPrecision() method formats a number to a specified length.
@@ -303,7 +431,7 @@ num.toPrecision(2); // 0.0017
 num.toPrecision(3); // 0.00166
 num.toPrecision(10); // 0. 001658853000
 
-----------------------------
+
 
 // 04. ValueOf()
 // The valueof() method returns the primitive value of a number.
@@ -314,10 +442,11 @@ number.valueOf () ;
 let num = 15;
 let n num.value0f() ; // 15
 
-----------------------------
+
 
 
 // Part III: Number Object Methods
+----------------------------------
 // 01. number.isInteger()
 // The Number.isInteger() method returns true if the argument is an integer.
 
@@ -327,7 +456,7 @@ number.isInteger(value);
 Number.isInteger (10) ; //true
 Number.isInteger (10.5); //false
 
-----------------------------
+
 
 // 02. number.isSafeInteger()
 // A safe integer is an integer that can be exactly represented as a double precision number.
