@@ -165,5 +165,50 @@ array[array.length] = 4;
 
 
 
+// JS NUMBER METHODS
+// Part I: Converting Variables to Num & String
+toString()
+Number()
+parseFloat()
+parseInt()
+// Part II: JS Number Methods
+toExponential()
+toFixed()
+toPrecision()
+ValueOf()
+// Part III: Number Object Methods
+number.isInteger()
+number.isSafeInteger()
+number.parseFloat()
+number.parseInt()
+
+
+
+// The toExponential() method converts a number into an exponential notation. 
+// It is a "shorthand" way of writing repeated multiplication.
+
+// Syntax
+number.toExponential(x);
+// Example
+let num= 5.56789;
+let n = num.toExponential(3);   // 5.568e+0
+
+------------------------
+
+// The toFixed() method converts a number to a string. 
+// and this method rounds the string to a specified number of decimals.
+
+// Syntax
+number.toFixed(x);
+// Example 1
+let num = 5.56789;
+let n = num.toFixed();   // 6
+
+// Example 2
+let num = 5.56789;
+let n = num.toFixed(2);   // 5.57
+
+
+
 
 
