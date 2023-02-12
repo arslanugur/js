@@ -353,7 +353,38 @@ for (let x of day) {
 
 
 // 20. every()
+// The every() method tests whether all elements in the array pass the test implemented by the provided function. 
+// It returns a Boolean value.
+// Arrow function Syntax
+every((element) => {/* code */}); 
+
+// Example
+const array1 = [1, 30, 39, 29, 10, 13];
+
+const isBelow_1 = (currentValue) => currentValue < 40;
+console.log(array1.every(isBelow_1));                 // Expected output: true
+const isBelow_2 = (currentValue) => currentValue < 30;
+console.log(array1.every(isBelow_2));                 // Expected output: true
+                  
+                  
+                  
 // 21. some()
+// The some() method tests whether at least one element in the array passes the test implemented by the provided function.
+
+// It returns true if, in the array. it finds an element for which the provided function returns true; 
+// otherwise it returns false. It doesn't modify the array.
+
+
+// Syntax
+array.some(function(value, index, arr), this)
+
+// Example
+const ages = [3, 10, 18, 20];
+ages.some(checkAdult);
+function checkAdult(age) {
+return age > 18;
+}  // true
+  
 // 22. fill()
 // 22. copyWithin()
 // 23. valueOf()
