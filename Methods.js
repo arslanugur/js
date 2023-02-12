@@ -237,16 +237,121 @@ console.log(strng);     // [ 'D', 'C', 'B', 'A' ]
 // ARRAY METHODS: PART THREE
 ----------------------------
 // 13. isArray()
+// The isArray() method returns true if an object is an array, otherwise false.
+// Check if an object is an array.
+
+// Syntax
+Array.isArray(obj);
+
+// Example
+let numbers = [1, 2, 3, 4, 5, 6];
+let strng = "Code"
+console.log(Array.isArray(numbers));  // true
+console.log(Array.isArray(strng));    // false
+
 // 14. indexOf()
+// The indexOf() method returns the first index (position) of a specified value, 
+// ... returns -1 if the value is not found. and it searches from left to right.
+
+// Negative start values counts from the last element (but still searches from left to right)
+
+// Syntax
+array.indexOf(item, start); 
+
+// Example
+let elements = ["Laptop", "HeadSet ", "Mobile", "Router "];
+console.log(elements.index0f("Mobile", 0));   // 2
+console.log(elements.index0f("Mobile", 3));   // -1
+
 // 15. lastIndexOf()
+// The lastlndexOf() method returns the last index (position) of a specifed value, 
+// ... returns -1if the value is not found. starts at a specified index and searches from right to left.
+
+// Negative start values counts from the last element (but still searches from right to left).
+
+// Syntax
+array.lastIndexOf(item, start);
+
+// Example
+let elements = ["laptop", "Mobile", "HeadSet ", "Mobile", "Router "];
+console.log(elements.indexOf("Mobile", 0));   // 1
+// indexOf(): left to right
+
+console.log(elements.lastIndexof("Mobile", 4)); // 3
+// lastIndexOf(): right to left
+
+            
 // 16. find()
+// The find() method returns the first element in the provided array that satisfies the provided testing function.
+// If no values satisfy the testing function, undefned is returned.
+
+// Syntax (arrow function)
+find((element) => {/* ... */});
+
+// Example
+const arry = [5, 12, 8, 130, 44];
+const found = arry.find((element) => element > 10);
+console.log(found);   // 12
+
 // 17. findIndex()
+// The findIndex() method returns the index of the first element in an array that satisfies the provided testing function. 
+// If no elements satisfy the testing function, then -1 is returned.
+
+// Syntax
+array.findIndex(function(currentValue, index, arr), thisValue)
+
+// Example
+const array1 = [5, 12, 8, 130, 44];
+const isLargeNumber = (element) => element > 13;
+console.log(array1.findIndex(isLargeNumber));
+// Expected output: 3 (index)
+// 130 is large number
+
+
 // 18. includes()
+// The includes() method returns true if an array contains a specified value. (case sensitive)
+
+// if the value is not found returns false 
+
+// Syntax
+array.includes(element, start);
+
+// Example
+const num = [1, 2, 3];
+console.log(num.includes(2));       // Expected output: true
+const str = ["cat", "dog", "bat"];
+console.log(str.includes("cat"));   // Expected output: true
+
+
 
 
 // ARRAY METHODS: PART FOUR
 ---------------------------
 // 19. entries()
+// The entries() method returns an Array Iterator object with key/value pairs. 
+// And this method does not change the original array.
+
+// Syntax
+array.entries();
+
+// Example
+const days = ["sun", "mon", "tue", "wed",
+              "thu", "fri", "sat"];
+
+const day = days.entries();
+
+for (let x of day) {
+  console.log(x + "\n");
+}
+// 0, sun
+// 1, mon;
+// 2, tue;
+// 3, wed;
+// 4, thu;
+// 5, fri;
+// 6, sat;
+
+
 // 20. every()
 // 21. some()
 // 22. fill()
