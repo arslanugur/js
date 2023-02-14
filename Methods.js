@@ -374,7 +374,6 @@ console.log(array1.every(isBelow_2));                 // Expected output: true
 // It returns true if, in the array. it finds an element for which the provided function returns true; 
 // otherwise it returns false. It doesn't modify the array.
 
-
 // Syntax
 array.some(function(value, index, arr), this)
 
@@ -384,20 +383,76 @@ ages.some(checkAdult);
 function checkAdult(age) {
 return age > 18;
 }  // true
-  
+
+
 // 22. fill()
-// 22. copyWithin()
-// 23. valueOf()
+// The fill() method fills specified elements in an array with a value. method overwrites the original array.
+// Start and end position can be specified. If not, all elements will be filled.
+
+// Syntax
+array.fill(value, start, end);
+
+// Example
+// Fill all the elements with a value:
+const fruits = ["Banana", "Orange", "Apple", "Mango"]
+fruits.fill("Kiwi");
+// Output: ["Kiwi", "Kiwi", "Kiwi", "Kiwi"]
+
+// Fill the last two elements:
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.fill("Kiwi", 2, 4);
+// Output: ["Banana", "Orange", "Kiwi", "Kiwi"]
+
+// 23. copyWithin()
+// The copyWithin() method copies array elements to another position in the array, 
+// and this method overwrites the existing values.
+
+// The copyWithin() method does not add items to the array.
+
+// Syntax
+array.copyWithin (target, start, end);
+
+// Example
+// Copy the first two array elements to the last two array elements.
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.copyWithin(2, 0);
+// ["Banana", "Orange", "Banana", "Orange"]
+
+// Copy the first two array elements to the third and fourth position
+const fruits = ["Banana", "Orange", "Apple", "Mango", "Kiwi", "Papaya"];
+console.Log(fruits.copyWithin(2, 0, 2));
+// ["Banana", "Orange", "Banana", "Orange", "Kiwi", "Papaya"];
+
+
+// 24. valueOf()
+// The valueOf() method returns the array itself,
+// and this method does not change the original array.
+fruits.valueOf() returns the same as fruits.
+
+// Syntax
+array.value0f();
+
+// Example
+// Get the value of fruits:
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+const myArray = fruits.value0f();
+// ["Banana", "Orange", "Apple", "Mango"]
+
+// fruits.valueOf() returns the same as fruits:
+const fruits = [" Banana", "Orange", "Apple". "Mango"];
+const myArray = fruits;
+// "Banana", "Orange", "Apple", "Mango"];
+
 
   
 // ARRAY METHODS: PART FIVE
 ---------------------------
-// 24. forEach()
-// 25. map()
-// 26. filter()
-// 27. reduce()
-// 28. reduceRight()
-// 29. from()
+// 25. forEach()
+// 26. map()
+// 27. filter()
+// 28. reduce()
+// 29. reduceRight()
+// 30. from()
 
 
 
