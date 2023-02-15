@@ -448,20 +448,108 @@ const myArray = fruits;
 // ARRAY METHODS: PART FIVE
 ---------------------------
 // 25. forEach()
+// The forEach() method executes a provided function once for each array element, 
+// And this method is not executed for empty elements.
+
+// Syntax
+array.forEach(function(currentValue, index, arr), thisValue)
+
+// Example
+// Multiply each element:
+const numbers = [65, 44, 12, 4];
+numbers.forEach(myFunction);
+function myFunction(item, index, arr) {
+  arr[index] = item * 10;
+}                         // 650, 440, 120, 40
+  
 // 26. map()
+// This method creates a new array populated with the results of calling a provided function on every element in the calling array.
+
+// Syntax
+array.map(function(currentValue, index, arr), thisvalue)
+
+// Example
+// Multiply all the values in an array with 10:
+const numbers = [65, 44, 12, 4];
+const newArr = numbers.map(myFunction);
+function myFunction(num) {
+  return num * 10;
+}     // 650, 440, 120, 40
+
+
 // 27. filter()
+// The filter) method creates a new array filled with elements that pass a test provided by a function.
+// And this method does not change the original array.
+
+// Syntax
+array.filter(function(currentValue, index, arr), thisValue)
+
+// Example
+const ages = [32, 33, 16, 40];
+const result = ages.filter(checkAdult);
+function checkAdult(age) {
+return age >= 18;
+}   // 32, 33, 40
+
+
 // 28. reduce()
+// The reduce() method executes a reducer function for array element. 
+// and this method returns a single value: the function's accumulated result.
+
+// Syntax
+array.reduce(function(total, currentValue, currentIndex, arr), initialValue);
+
+// Example
+const numbers = [175, 50, 25];
+numbers.reduce(myFunc);
+function myFunc(total, num) {
+return total - num;
+}                       // 24
+
+
 // 29. reduceRight()
+// The reduce[) method executes a reducer function for array element. 
+// and this method returns a single value: the function's accumulated result. works from right to left.
+
+// Syntax
+array.reduceRight(function(total, currentValue, currentIndex, arr), initialvalve);
+
+// Example
+const numbers = [175, 50, 25];
+
+numbers.reduceRight(myFunc);
+
+function myFunc(total, num) {
+  return total - num;
+}  // -200
+
+
 // 30. from()
+// The Array.from() method returns an array from any object with a length property.
+
+// And this method returns an array from any iterable object.
+
+// Syntax
+Array.from(object, mapFunction, thisValue);
+
+// Example
+// Create an array from a string:
+console.log(Array.from("Code"));      // Array ["C", "o","d", "e"]
 
 
 
 
-
-
-
-
-
+// OBJECT METHODS
+-----------------
+// JS objects have a number of built-in methods that allow you to manipulate and interact with objects.
+// Here is a list of some of the most commonly used object methods in JavaScript.
+// 01. Object.assign()
+// 02. Object.create()
+// 03. Object.entries()
+// 04. Object.freeze()  
+// 05. Object.keys()
+// 06. Object.values()
+// 07. Object.seal()
 
 
 
