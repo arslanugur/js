@@ -1,130 +1,130 @@
 # Syntax
-try...catch
-if
-for...of
-for...in
-for (loops)
-Semi-colons
-Exceptions
+    try...catch
+    if
+    for...of
+    for...in
+    for (loops)
+    Semi-colons
+    Exceptions
 
 # Variables
-var (legacy)
-let
-const
-Temporal Dead Zone
-Hoisting
-?? (nullish coalescing)
+    var (legacy)
+    let
+    const
+    Temporal Dead Zone
+    Hoisting
+    ?? (nullish coalescing)
 
 
 # Strings
-[] (character access)
-Template strings
-Concatenation
-.trim()
-.toUpperCase()
-.toLowerCase()
-.substring()
-.startsWith()
-.split()
-.replaceAll()
-.replace()
-.length
-.includes()
-.endsWith()
+    [] (character access)
+    Template strings
+    Concatenation
+    .trim()
+    .toUpperCase()
+    .toLowerCase()
+    .substring()
+    .startsWith()
+    .split()
+    .replaceAll()
+    .replace()
+    .length
+    .includes()
+    .endsWith()
 
 # Arrays
-...(spread)
-.every()
-.filter()
-.find()
-.forEach()
-.includes()
-.join()
-.length
-.map()
-.push()
-.reduce()
-.some()
-.splice()
-?. (optional chaining)
-Arrays of objects
-[] (get item)
-destructing
+    ...(spread)
+    .every()
+    .filter()
+    .find()
+    .forEach()
+    .includes()
+    .join()
+    .length
+    .map()
+    .push()
+    .reduce()
+    .some()
+    .splice()
+    ?. (optional chaining)
+    Arrays of objects
+    [] (get item)
+    destructing
 
 # fetch API
-fetch()
-Response.json()
-Response status codes
-PUT
-POST
-JSON.stringify()
-JSON.parse()
-GET
-Fetch Wrapper
-Error handling
-DELETE
+    fetch()
+    response.json()
+    Response status codes (1xx, 2xx, 3xx, 4xx, 5xx)
+    PUT
+    POST
+    JSON.stringify()
+    JSON.parse()
+    GET
+    Fetch Wrapper
+    Error handling
+    DELETE
 
 # Promises
-states
-new Promise()
-await keyword
-async function
-Promises
-Promise.resolve()
-Promise.reject()
-.then()
-.finally()
-.catch()
+    states
+    new Promise()
+    await keyword
+    async function
+    Promises
+    Promise.resolve()
+    Promise.reject()
+    .then()
+    .finally()
+    .catch()
 
 # Objects
-property access
-object shorthead
-dynamic properties
-destructing
-Object.values()
-Object.keys()
-Object.entries()
-Advanced control flow
-?? (nullish coalescing)
-... (spread)
+    property access
+    object shorthead
+    dynamic properties
+    destructing
+    Object.values()
+    Object.keys()
+    Object.entries()
+    Advanced control flow
+    ?? (nullish coalescing)
+    ... (spread)
 
 # Number
-Number.parseInt()
-NaN
-Division Remainder(%)
-.toString()
+    Number.parseInt()
+    NaN
+    Division Remainder(%)
+    .toString()
 
 # Modules
-ES Modules
-Importing from libraries
-Module bundlers
-Package managers
-Parcel
-Webpack
-default export
-import
-import() (dynamic imports)
-named export
-npm
-package.json
-script type="module"
-yarn
+    ES Modules
+    Importing from libraries
+    Module bundlers
+    Package managers
+    Parcel
+    Webpack
+    default export
+    import
+    import() (dynamic imports)
+    named export
+    npm
+    package.json
+    script type="module"
+    yarn
 
 # Classes
-Classes
-Getters
-Inheritance
-    Class vs Function
-    Private class fields
-    Public class fields
-    inheritance
-    prototypal inheritance
-    prototype chain
-    super()
-Instance methods
-Instance variables
-Setters
-Static methods
+    Classes
+    Getters
+    Inheritance
+        Class vs Function
+        Private class fields
+        Public class fields
+        inheritance
+        prototypal inheritance
+        prototype chain
+        super()
+    Instance methods
+    Instance variables
+    Setters
+    Static methods
 
 
 # DOM
@@ -173,29 +173,29 @@ Selection
 
 
 # Functions
-=> (arrow functions)
-?. (optional chaining)
-Asynchronous callbacks
-Callback pattern
-Closures
-Hoisting
-Lexical scope
-Passing functions
-basic functions
-default parameters
-implicit return
-lexical scope
+    => (arrow functions)
+    ?. (optional chaining)
+    Asynchronous callbacks
+    Callback pattern
+    Closures
+    Hoisting
+    Lexical scope
+    Passing functions
+    basic functions
+    default parameters
+    implicit return
+    lexical scope
 
 
 
 
 # Misc
-Deep equal
-ECMAscript
-Event loop
-IIFE
-Immutability
-Window
+    Deep equal
+    ECMAscript
+    Event loop
+    IIFE
+    Immutability
+    Window
 
 
 
