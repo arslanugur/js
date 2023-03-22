@@ -8,7 +8,15 @@
 [2, 15, 3].sort()                 // [15,2,3]
 [1,2,3].reverse()                 // [3, 2, 1]
 
-
+/*
+https://animejs.com/
+https://threejs.org/
+https://greensock.com/gsap/
+https://scrollrevealjs.org/
+http://velocityjs.org/
+https://popmotion.io/pure/
+https://anijs.github.io/
+*/
 
 
 // KILLER ONE LINERS
