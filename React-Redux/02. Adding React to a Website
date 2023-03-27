@@ -1,0 +1,42 @@
+"There's someone in my head, but it's not me" - Pink Floyd
+
+First, we need to add the React library as two script tags to the head of our HTML document:
+
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script> 
+
+Next, we need to add another script, to enable the use of JSX.
+JSX is a syntax extension to JavaScript, and it is recommended to be used with React.
+For now, let's just add the following script tag:
+
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> 
+
+
+Adding JavaScript into an HTML Document:✨ 
+You can add JavaScript code in an HTML document by employing the dedicated HTML tag <script> that wraps around JavaScript code. 
+The <script> tag can be placed in the <head> section of your HTML, in the <body> section, or after the </body> close tag, depending on when you want the JavaScript to load. 
+Generally, JavaScript code can go inside of the document <head> section in order to keep them contained and out of the main content of your HTML document. 
+However, if your script needs to run at a certain point within a page’s layout — like when using document.write to generate content — you should put it at the point where it should be called, usually within the <body> section.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+# What Is JSX? 
+JSX is an XML/HTML-like syntax used by React that extends ECMAScript so that XML/HTML-like text can co-exist with JavaScript/React code. 
+The syntax is intended to be used by preprocessors (i.e., transpilers like Babel) to transform HTML-like text found in JavaScript files into standard JavaScript objects that a JavaScript engine will parse. 
+Basically, by using JSX you can write concise HTML/XML-like structures (e.g., DOM like tree structures) in the same file as you write JavaScript code, then Babel will transform these expressions into actual JavaScript code. 
+Unlike the past, instead of putting JavaScript into HTML, JSX allows us to put HTML into JavaScript.
+
+Don't think of JSX as a template but instead as a special/alternative JS syntax that has to be compiled. 
+I.e., JSX is simply converting XML-like markup into JavaScript.
+
+# CDN
+what would be the pro and cons of using CDN links instead of npm?
+caching - your browser will need to download these scripts from CDN only ones and chances are you already have them downloaded by other site visited earlier using the same react scripts. 
+It improves loading time of your site.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+
+
+
+
