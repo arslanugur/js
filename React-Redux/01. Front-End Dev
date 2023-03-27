@@ -1,0 +1,85 @@
+# Front-End Develeopment
+React is a library for building user-interfaces specifically for single-page applications.
+It's used for handling the view layer for web and mobile apps. 
+React also allows us to create reusable UI components
+
+
+A few things you need to know about React
+https://hackernoon.com/13-things-you-need-to-know-about-react-d2e6a6422552
+  JSX
+  Use declarative code
+  Separate the concerns
+  Use isolated pieces of code named "components"
+  Keep the state small
+  State
+  Very flexible tool for reuse "components"
+  Data goes down - from parent to children (for other purpose use "context" or Redux)
+  Events go up
+  Rendering
+  Conditional rendering
+  You don’t need Flux
+  
+  Use DevTools to check all changes is state and props
+  React operates VirtualDOM (that is way it is so quick) 
+  For crosbrower compitability React use SyntheticEvent
+  Use code-splitting for optimize App; 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+# COMPOSITION is the key
+  React provides a component based structure. 
+  Components are your lego pieces. 
+  You start with tiny components like button, checkbox, dropdown etc. 
+  and then you create wrapper components composed of those smaller components. 
+  And then you write higher level wrapper components. 
+  And, it goes on like that until you have this one root component and that component is your app.
+
+  There are two types of components in React: 
+      - Class components
+        Class components may be "smart" - with STATE, or "dump" - stateless component
+        Always use "setState" to change state in Class components
+        (never change state directly because component will not rerender changes)
+        In Functional components use hooks for this purpose.
+        Use lifecycle methods to a class components
+      
+      - Functional components
+        You can use Hooks instead of state in functional component
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+# DOM
+  The Document Object Model (DOM) is a cross-platform 
+  and language-independent interface that treats an XML or HTML document as a tree structure wherein each node is an object representing a part of the document. 
+  The DOM represents a document with a logical tree.
+  
+  
+  
+
+Here are some of the advantages of React:
+
+Speed:
+  # Fast Render with Virtual DOM
+  
+  Interactive websites need to update the DOM (Document Object Model) each time a change happens. 
+  This process is generally resourceful and slow.
+  Compared to other libraries that manipulate the DOM, React uses a Virtual DOM, allowing to update only the parts of the website that have changed. 
+  This increases the speed of updates dramatically, as modern web applications may contain thousands of elements.
+
+  The virtual DOM (VDOM) is a programming concept where an ideal, or “virtual”, 
+  representation of a UI is kept in memory and synced with the “real” DOM by a library such as ReactDOM. 
+  This process is called reconciliation. 
+  They may also be considered a part of “virtual DOM” implementation in React. 
+  React maintains two Virtual DOM at each time, one contains the updated Virtual DOM and one which is just the pre-update version of this updated Virtual DOM.
+
+  React uses virtual DOM to enhance its performance. 
+  It uses the observable to detect state and prop changes. 
+  React uses an efficient diff algorithm to compare the versions of virtual DOM. 
+  It then makes sure that batched updates are sent to the real DOM for repainting or re-rendering of the UI. 
+  Like the actual DOM, the Virtual DOM is a node tree that lists elements and their attributes and content as objects and properties. React's render() method creates a node tree from React components and updates this tree in response to mutations in the data model, caused by actions.
+  
+Ease of Use:
+  React allows developers to group related code together, thereby making building and maintaining large scale applications much less complex.
+
+https://legacy.reactjs.org/docs/faq-internals.html
+  
+
