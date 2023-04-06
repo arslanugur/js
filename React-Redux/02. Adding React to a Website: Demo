@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      ReactDOM.render(<h1>Text</h1>, document.getElementById('container'))
+    </title>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin>
+    </script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> 
+  </head>
+  <body>
+    <div id="container"></div>
+    <div id="root"></div>   
+<script type="text/babel">
+ const name = "React";
+ const el =
+   <div className={name}>
+     <h1>Hello, {name}!</h1>
+     <h2>React Rocks.</h2>
+     <p>I am learning React.</p>
+   </div>;
+   
+ ReactDOM.render(
+  el,
+  document.getElementById('container')
+ );
+ 
+ let counter = 0;
+ //simple JavaScript function:
+ function show(){
+   counter++;
+   const el = 
+    <p>You've watch for {counter} seconds.</p>;
+   ReactDOM.render(
+     el, document.getElementById('root')
+   )
+ };
+ setInterval(show, 1000);
+ 
+ //functional component called Hello, that returns a simple React element:
+ function Hello(){
+   return <h1>Hello world.</h1>;
+ };
+ const e = <Hello/>;
+ ReactDOM.render(
+   e, document.getElementById('root')
+ );
+ 
+ 
+ //class Component: 
+ let eClsComp = class Hi extends React.Component {
+  render(){
+    return <h1>Hi world.</h1>;
+  }
+ };
+ console.log(eClsComp);
+</script>
+  </body>
+</html>
+
+
+CSS Code:
+body {
+    background-color: #acc;
+}
+.React {
+    color: red;
+}
+
+
+
