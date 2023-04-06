@@ -82,6 +82,11 @@ The call to ReactDOM.render() actually places a tiny React application on the pa
 Without the call to ReactDOM.render(), nothing would render in the DOM. 
 **The first argument to ReactDOM.render() is 'what' to render and the second is 'where' : ReactDOM.render(<what>, <where>)
 
+To create a div element with the id "root"
+<div id="root">
+</div>
+
+
 
 
 
