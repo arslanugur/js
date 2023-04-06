@@ -1,7 +1,10 @@
+React can be added to a website without any special tools and installations.
+
 "There's someone in my head, but it's not me" - Pink Floyd
 
 First, we need to add the React library as two script tags to the head of our HTML document:
 
+Code:
   <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script> 
 
@@ -9,6 +12,7 @@ Next, we need to add another script, to enable the use of JSX.
 JSX is a syntax extension to JavaScript, and it is recommended to be used with React.
 For now, let's just add the following script tag:
 
+Code:
   <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> 
 
 
@@ -35,7 +39,48 @@ It improves loading time of your site.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
+# Adding React
+After adding the required script tags, we can start building our React app!
+We add a container, that will be used to display something using React.
 
+<div id="container"></div>
+
+You can use any id for your container. It will be used by React to find the container and add content to it.
+
+Code:
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test</title>
+        <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin>
+        </script>
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> 
+    </head>
+    <body>
+        
+        <div id="container"></div>
+        
+        <script type="text/babel">
+        ReactDOM.render(
+          <h1>Hello, React!</h1>,
+          document.getElementById('container')
+        )
+        </script>
+    </body>
+</html>
+
+The code finds the container div, and adds the h1 heading to it.
+
+The ReactDOM.render() function takes two arguments, HTML code (what) and an HTML element (where). 
+The purpose of the function is to display the specified HTML code inside the specified HTML element.
+Simply; the ReactDOM.render() function takes basically two arguments which are: what and where. - what to render - where to render it
+
+Inside the Babel script body, we defined the first React application. 
+This application consists of a single element, the <h1>Hello, React!</h1>. 
+The call to ReactDOM.render() actually places a tiny React application on the page. 
+Without the call to ReactDOM.render(), nothing would render in the DOM. 
+**The first argument to ReactDOM.render() is 'what' to render and the second is 'where' : ReactDOM.render(<what>, <where>)
 
 
 
